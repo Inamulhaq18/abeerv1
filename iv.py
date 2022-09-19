@@ -29,7 +29,7 @@ def generatedesc(productname):
 
 url="https://abo5.s3.eu-central-1.amazonaws.com/"
 #create a subheading 
-name="Abeer"
+name="Sami"
 st.header("Hi, " + name + "😃")
 #product name 
 productname_en=st.text_input("Product Name Enlish : ", "",key="productnameen" )
@@ -256,12 +256,4 @@ if st.button("Submit"):
             st.write("describtion gen Server.....")
 
 
-            st.write(f'''
-              <a target="_self" href="https://inamulhaq18-abeerv1-iv-xatq4b.streamlitapp.com/">
-                  <button>
-                      Reload
-                  </button>
-              </a>
-              ''',
-              unsafe_allow_html=True
-            )
+
