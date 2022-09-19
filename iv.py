@@ -247,7 +247,7 @@ if st.button("Submit"):
             links = ", ".join(urllist)
             status=update_product(Product_Entry_Timestamp=datetime.datetime.now(), Product_Name_en=productname_en,
                             Product_Name_ar=productname_ar, Product_Category=category,Tags=tags,Retail_outlet=store,
-                            Product_price=price, Product_image_R_url=links, Product_image_P_url=linksp,user="Waleed",Product_subcategory=sub_cat, variety=varient) 
+                            Product_price=price, Product_image_R_url=links, Product_image_P_url=linksp,user="Abeer",Product_subcategory=sub_cat, variety=varient) 
             st.success("Updated")
             time.sleep(1)
             imageprocessapi(links)#processing the raw image heroku server
