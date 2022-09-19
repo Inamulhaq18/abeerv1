@@ -257,7 +257,7 @@ if st.button("Submit"):
 
 
             st.write(f'''
-              <a target="_self" href="https://inamulhaq18-waleed-varient-iv-wix2hq.streamlitapp.com/">
+              <a target="_self" href="https://inamulhaq18-abeerv1-iv-xatq4b.streamlitapp.com/">
                   <button>
                       Reload
                   </button>
