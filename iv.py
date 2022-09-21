@@ -242,7 +242,7 @@ if st.button("Submit"):
                 #st.write(name)
                 #upload R to s3
 
-                s3.Bucket('abo5').upload_file(Filename=name, Key=name)
+                s3.Bucket('abo5').upload_file(Filename=name, Key=name,ExtraArgs={'ContentType': 'image/png'})
                 urllist.append(url+name)
             links = ", ".join(urllist)
             status=update_product(Product_Entry_Timestamp=datetime.datetime.now(), Product_Name_en=productname_en,
