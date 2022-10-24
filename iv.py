@@ -251,8 +251,8 @@ if st.button("Submit"):
             st.success("Updated")
             time.sleep(1)
             
-            imageprocessapi(links)#processing the raw image heroku server
-            st.write("Image Process Server.....")
+            #imageprocessapi(links)#processing the raw image heroku server
+            #st.write("Image Process Server.....")
             generatedesc(productname_en)
             st.write("describtion gen Server.....")
 
