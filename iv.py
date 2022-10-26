@@ -29,7 +29,7 @@ def generatedesc(productname):
 
 url="https://abo5.s3.eu-central-1.amazonaws.com/"
 #create a subheading 
-name="Abeer"
+name="Waleed"
 st.header("Hi, " + name + "😃")
 #product name 
 productname_en=st.text_input("Product Name Enlish : ", "",key="productnameen" )
