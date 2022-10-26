@@ -7,7 +7,7 @@ from sqlalchemy import delete
 from sqlalchemy.sql.sqltypes import JSON
 
 #Connecting to the database
-engine = create_engine("postgres://ue0bragorjpsfg:p3401de69df0671d626efa0688fbb4b255afe17a00d95341e8504b5442c3516f3@ec2-52-18-7-194.eu-west-1.compute.amazonaws.com:5432/d1en285kafvdds", echo = False)
+engine = create_engine("postgresql://ue0bragorjpsfg:p3401de69df0671d626efa0688fbb4b255afe17a00d95341e8504b5442c3516f3@ec2-52-18-7-194.eu-west-1.compute.amazonaws.com:5432/d1en285kafvdds", echo = False)
 
 #establishing a session 
 Session=sessionmaker(bind=engine)
